@@ -1,4 +1,5 @@
-/*Print  1 To N number*/
+/*Print  1 To N number
+  Print N To 1 number*/
 #include<stdio.h>
 int main()
 {
