@@ -14,6 +14,5 @@ int main()
     else{
         printf("\n %d Number is Neutral",num);
     }
-    
     return 0;
 }
