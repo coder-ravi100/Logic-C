@@ -12,3 +12,13 @@ int main()
     }
     printf("\n Digits : %d",digit);
 }
+/*Dry Run
+Num = 123
+
+12 = 123/10
+digit = 0+1=1
+
+1 = 12 / 10
+digit = 1+2=3
+
+*/
