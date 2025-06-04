@@ -1,3 +1,5 @@
+/*Without return type & Without argument*/
+/*Matlab: Function input nahi leta hai aur result return nahi karta hai */
 #include<stdio.h>
 void sample()
 {

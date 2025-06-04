@@ -1,5 +1,4 @@
 //Type 1: With Return Type & With Argument
-
 /*Matlab: Function input bhi leta hai aur result return bhi karta hai */
 #include<stdio.h>
 int add(int a,int b)//function declaration
