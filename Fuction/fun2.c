@@ -8,13 +8,13 @@ int add(int a,int b)//function declaration
 }
 int main()
 {
-    int n1,n2,sum;
+    int n1,n2;
     printf("\n Enter the number n1 :");//10
     scanf("%d",&n1);
     printf("\n Enter the number n2 :");//20
     scanf("%d",&n2);
     
-    sum = add(n1,n2);//call
+    int sum = add(n1,n2);//call
     printf("\n Additon is :%d",sum);
     return 0;
 }
