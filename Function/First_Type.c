@@ -7,23 +7,23 @@ Function argument accept karega
 #include<stdio.h>
 int sum(int a, int b)//argument
 {
-    int result1;
-    return result1 = a+b;//Yaha Sirf Function Calculate karta 
+    int result;
+    return result = a+b;//Yaha Sirf Function Calculate karta 
 }
 int sub(int x, int y)
 {
-    int result2;
-    return result2 = x - y;
+    int result;
+    return result = x - y;
 }
 int mul(int w, int z)
 {
-    int result3;
-    return result3 = w * z;
+    int result;
+    return result = w * z;
 }
 int div(int s, int t)
 {
-    int result4;
-    return result4 = s / t;
+    int result;
+    return result = s / t;
 }
 int main()
 {
