@@ -46,11 +46,3 @@ int main()
 
     return 0;
 }
-/* Dry Run:
-Input: 5
-
-Call: findSquare(5)
-
-Return: 25
-
-Output: Square of 5 is 25*/
