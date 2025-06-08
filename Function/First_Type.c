@@ -10,39 +10,26 @@ int sum(int a, int b)//argument
     int result;
     return result = a+b;//Yaha Sirf Function Calculate karta 
 }
-int sub(int x, int y)
-{
-    int result;
-    return result = x - y;
-}
-int mul(int w, int z)
-{
-    int result;
-    return result = w * z;
-}
-int div(int s, int t)
-{
-    int result;
-    return result = s / t;
-}
 int main()
 {
-    int num1,num2,add,minus,multiply,division;
+    int num1,num2,add;
     printf("\n Enter number 1 :");//10
     scanf("%d",&num1);
     printf("\n Enter number 2 :");//20
     scanf("%d",&num2);
 
     add = sum(num1,num2);//argument
-    minus = sub(num1,num2);
-    multiply = mul(num1,num2);
-    division = div(num1,num2);
-
-
     printf("\n The Sum is :%d",add);
-    printf("\n The Sub is :%d",minus);
-    printf("\n The Mul is :%d",multiply);
-    printf("\n The Div is :%d",division);
-
     return 0;
 }
+/*Logic:
+
+Function value return karega.
+
+Function ke parameter (argument) se values pass hongi.
+
+Input user se main() function mein liya jayega.
+
+Function bas calculation karke result return karega.
+
+Use: Jab calculation karna ho aur answer chahiye*/

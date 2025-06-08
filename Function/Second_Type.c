@@ -9,53 +9,26 @@ Lekin koi argument nahi lega*/
 int add()
 {
     int n1,n2,result;
-    printf("\n Addition");
     printf("\n Enter Number 1:");
     scanf("%d",&n1);
     printf("\n Enter Number 2:");
     scanf("%d",&n2);
     return result = n1 + n2;
 }
-int sub()
-{
-    int n1,n2,result;
-    printf("\n Subtraction");
-    printf("\n Enter Number 1:");
-    scanf("%d",&n1);
-     printf("\n Enter Number 2:");
-    scanf("%d",&n2);
-    return result = n1 - n2;   
-}
-int mul()
-{
-    int n1,n2,result;
-    printf("\n Multiplication");
-    printf("\n Enter Number 1:");
-    scanf("%d",&n1);
-     printf("\n Enter Number 2:");
-    scanf("%d",&n2);
-    return result = n1 * n2;   
-}
-int div()
-{
-    int n1,n2,result;
-    printf("\n Division");
-    printf("\n Enter Number 1:");
-    scanf("%d",&n1);
-     printf("\n Enter Number 2:");
-    scanf("%d",&n2);
-    return result = n1 / n2;   
-}
 int main()
 {
-    int num1,num2,num3,num4;
+    int num1;
     num1 = add();
-    num2 = sub();
-    num3 = mul();
-    num4 = div();
+   
     printf("\n The Addition Is : %d",num1);
-    printf("\n The Subtraction Is : %d",num2);
-    printf("\n The Multiplication Is : %d",num3);
-    printf("\n The Division Is : %d",num4);
     return 0;
 }
+/*Logic:
+
+Function value return karega, lekin koi argument pass nahi karega.
+
+Input lena, calculation karna sab function ke andar hoga.
+
+Final result return karke main() mein store hoga.
+
+Use: Jab function khud input le aur result de*/
