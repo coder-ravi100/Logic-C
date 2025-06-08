@@ -5,19 +5,46 @@ Function return karega koi value
 Function argument accept karega
 */
 #include<stdio.h>
-int  sum(int a, int b)//argument
+int sum(int a, int b)//argument
 {
-    return a+b;
+    int result1;
+    return result1 = a+b;//Yaha Sirf Function Calculate karta 
+}
+int sub(int x, int y)
+{
+    int result2;
+    return result2 = x - y;
+}
+int mul(int w, int z)
+{
+    int result3;
+    return result3 = w * z;
+}
+int div(int s, int t)
+{
+    int result4;
+    return result4 = s / t;
 }
 int main()
 {
-    int num1,num2,ans;
+    int num1,num2,add,minus,multiply,division;
     printf("\n Enter number 1 :");//10
     scanf("%d",&num1);
     printf("\n Enter number 2 :");//20
     scanf("%d",&num2);
-    ans = sum(num1,num2);//argument
-    printf("\n The Sum is :%d",ans);
+
+    add = sum(num1,num2);//argument
+    minus = sub(num1,num2);
+    multiply = mul(num1,num2);
+    division = div(num1,num2);
+
+
+    printf("\n The Sum is :%d",add);
+    printf("\n The Sub is :%d",minus);
+    printf("\n The Mul is :%d",multiply);
+    printf("\n The Div is :%d",division);
+
+    return 0;
 }
 /* Dry Run:
 Input: 5

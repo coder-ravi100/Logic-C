@@ -21,6 +21,7 @@ int main()
     int number;
     number = add();//Blank Argument and call function
     printf("\n Addition is :%d",number);
+    return 0;
 }
 /*Dry Run
 s
