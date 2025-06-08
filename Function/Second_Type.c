@@ -59,9 +59,3 @@ int main()
     printf("\n The Division Is : %d",num4);
     return 0;
 }
-/*Dry Run
-s
-n1=20
-n2=20
-function call by function
-return sum = n1+n2*/
