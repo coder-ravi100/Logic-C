@@ -28,7 +28,7 @@ int main()
     while (temp != 0)
     {
         rem = temp % 10;
-        power = (int)(round(pow(rem, digit))); // fix here
+        power = (int)(round(pow(rem, digit))); 
         sum = sum + power;
         temp = temp / 10;
     }
