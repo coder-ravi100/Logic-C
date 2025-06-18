@@ -1,4 +1,4 @@
-/*| Type               | Meaning (Hindi)                                                      | Use kaha hota hai |
+/*| Type               | Meaning                                                     | Use kaha hota hai |
 | ------------------ | -------------------------------------------------------------------- | ----------------- |
 | **Local Scope**    | Block ya function ke andar ka area                                   | Functions, loops  |
 | **Global Scope**   | Pure program mein kahin bhi use ho sakta hai                         | Function ke bahar |
@@ -8,7 +8,7 @@
 #include<stdio.h>
 int main() {
     int a = 10;  // Local to main
-    printf("%d", a); // ✅ Accessible here
+    printf("%d", a); //  Accessible here
     return 0;
 }
-// printf("%d", a); ❌ Error - a not declared in this scope
+// printf("%d", a);  Error - a not declared in this scope
