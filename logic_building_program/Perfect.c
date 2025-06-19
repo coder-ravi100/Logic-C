@@ -1,29 +1,29 @@
 /*1. Perfect Number Kya Hota Hai?
-Perfect Number woh number hota hai jiske sare proper divisors ka sum usi number ke barabar hota hai.
-6 ke divisor = 1 + 2 + 3 + 6 = 6 yes this perfect number
-Proper Divisors = woh numbers jo us number ko divide karte hain excluding the number itself*/
-/*Check Perfect Numbers*/
+Perfect Number woh number hota hai jiske sare proper divisors ka sum usi number ke barabar hota hai.*/
+
+/* 1. Perfect Number
+(Number ke chhote divisors ka sum agar number ke barabar ho, 
+toh woh Perfect Number hota hai. Ex: 6 → 1 + 2 + 3 = 6 )*/
 #include<stdio.h>
 int main()
 {
-    int num,i,sum=0;
-    printf("\n Enter Number:");
-    scanf("%d",&num);
-
-    for ( i = 1; i <num; i++)
+    int number ,sum=0, i;
+    printf("\nEnter Number:");
+    scanf("%d",&number);
+    for ( i = 1; i < number; i++)
     {
-        if (num % i  ==0)
-        {
-           sum = sum +i;
-        }
+       if (number % i == 0)//koin se number Divisor hai Wohi number ka sum hoga
+       {
+        sum = sum + i;
+       }
     }
-    if (sum ==  num)
+    if (number == sum)
     {
-        printf("\n%d number is perfect:",num);
+        printf("\n%d is perfect Number",number);
     }
     else
     {
-         printf("\n %d number is Not perfect:",num);
+        printf("\n%d is Not perfect Number",number);
     }
-    return  0;
+    return 0;
 }

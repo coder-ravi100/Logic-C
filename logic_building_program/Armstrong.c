@@ -2,8 +2,9 @@
 
 //Armstrong Number Isse Number hote hai jiske cube ka sum diye hue number barabar ho
 
-/*Memory Trick to Remember:
-"Digit count karo → har digit ka power lo → add karo → compare karo*/
+ /*2. Armstrong Number
+(Number ke har digit ka cube (or power of digit count) leke unka sum agar number
+ ke barabar ho, toh Armstrong Number hota hai. Ex: 153 → 1³ + 5³ + 3³ = 153 )*/
 #include <stdio.h>
 #include <math.h>
 
